@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BOA-CRYPTO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <link rel="icon" href="./images/BOA CRYPTO.png" type="image/png">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="./index.html">
+            <img class="header-logo" src="./images/BOA CRYPTO.png" alt="logotipo" width="50%"> 
+        </a>
+        <a href="#lateral" class="header-open">
+                <span class="fa-solid fa-bars"></span>
+        </a>
+        <nav class="nav" id="lateral"> 
+            <ul class="navul"> 
+                <li class="items">
+                    <a href="./index.html">Menu</a>
+                </li>
+                <li class="items">
+                    <a href="./pages/staking.html" >Staking</a>
+                </li>
+                <li class="items">
+                    <a href="./pages/noticias.html">Noticias
+                    </a>
+                </li>
+                <li class="items">
+                    <a  href="./pages/contacto.html">Contacto</a>
+                </li>
+                <a href="#close" class="closeenlace"><li class="navulitems-close"><span class="jam jam-close-circle"></span></li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section class="content home">
+         <h2 class="tittle"> Somos Boa Crypto</h2>
+         <p> Nos dedicamos al asesoramiento en Trading de Criptomonedas, Finanzas Descentralizadas (DeFi) y Comercizalizacion de Tokens No Fungibles (NFT). En nuestro sitio encontrara material de aprendizaje libre y gratuito, obteniendo también acceso a las ultimas noticias del mercado</p>
+         <div class="imagenesI">
+            <img src="./images/undraw_crypto_portfolio_2jy5.svg" alt="crypto">
+        </div>
+    </section>
+
+    <!-- STACKING  -->
+
+    <section class="content staking">
+        <h2 class="tittle"> Staking</h2>
+        <p class="text"> Contamos con pequeñas aplicaciones que permiten obtener informacion al instante respecto de las cotizaciones de los criptoactivos minuto a minuto</p>
+    </section>
+
+    <!-- NOTICIAS  -->
+
+    <section class="content noticias">
+        <h2 class="tittle"> Noticias </h2>
+        <p class="text"> Obtenga acceso a las ultimas novedades del mundo de las criptomonedas minuto a minuto.</p>
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section class="content contac">
+        <div> <h2 class="tittle"> Contacto</h2></div>
+        <div class="contacto">
+            <div class="texto-c">
+                <div class="icono-c"> 
+                    <i class="fa-brands fa-bitcoin icon"></i>
+                        <h2 class="texto-introc"></i>  BOA CRYPTO</h2>
+                </div>
+            <div class="icono-c"> 
+                <i class="fas fa-envelope me-3 icon"></i>
+                    <h3 class="textoc"> boacrypto@gmail.com</h3>
+            </div>
+            <div class="icono-c"> 
+                <i class="fas fa-home me-3 icon"></i>
+                    <h4 class="textoc"> Juana Manso 1800 Piso 9 CABA - Puerto Madero</h4>
+            </div>
+            <div class="icono-c"> 
+                <i class="fas fa-phone me-3 icon"></i>
+            <h4 class="textoc"> 0800-3007-1504</h4>
+            </div>
+            </div>
+        <div class=formulario-c>
+            <form class="formulario" action="enviar solicitud">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" >
+                </div>
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="text" id="email" name="email" >
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono" name="telefono">
+                </div>
+                <div>
+                    <label for="consulta">Consulta</label>
+                    <textarea  name="consulta" id="consulta" cols="21" rows="5"></textarea>
+                    <input type="submit" value="ENVIAR">
+                </div>
+        </form>
+        </div>
+        </div>
+    </section>
+
+    <!-- <section class="content contacto">
+        <h2 class="tittle"> Contacto</h2>
+        <h3 class="subtittle">Asesoramiento de inversiones personalizado</h3>
+        <p class="text">Brindamos opciones de estrategias basadas en los objetivos del cliente, de acuerdo con su tolerancia al riesgo y con su personal filosofía de inversión.</p>
+    </section> -->
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
