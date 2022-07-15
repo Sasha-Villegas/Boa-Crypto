@@ -28,6 +28,10 @@ img {
 /* HEADER */
 
 .header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
     background-color: #0a0944;
     display: flex;
     flex-direction: row;
@@ -35,12 +39,11 @@ img {
     text-align: center;
     font-family: 'Inconsolata', monospace;
     height: auto;
-    width: 100%;
-
+    justify-content: space-between;
 }
 
 .header-logo  {
-    width: 30%;
+    width: 45%;
     display: flex;
     justify-content: right;
 }
@@ -88,6 +91,9 @@ img {
 
 .home {
     background-color: #B4FF9F;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .staking {
@@ -97,6 +103,19 @@ img {
 .noticias {
     background-color: #B6FFCE;
 }
+
+.tittle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    margin: 16px 16px;
+} 
+
+.texto {
+    padding: 1rem 1rem;
+    font-size: 25px;
+
+}
+
 
 
 /* CONTACTO */
