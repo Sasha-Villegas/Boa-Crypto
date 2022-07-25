@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
     <link rel="icon" href="./images/BOA CRYPTO.png" type="image/png">
@@ -47,45 +49,44 @@
                 </li>
                 <a href="#close" class="closeenlace"><li class="navulitems-close"><span class="jam jam-close-circle"></span></li></a>
             </ul>
-            <!-- BOTONNES DE REGISTRO -->
-            <div>
-                <button id="registro" class="btn btn-danger">Registrar</button>
-                    <a id="login" class="btn btn-danger" >Login</a>
+        </nav>
+                    <!-- BOTONNES DE REGISTRO -->
+                    <div>
+                        <button id="registro" class="btn btn-danger">Registrarte</button>
+                            <a id="login" class="btn btn-danger" >Ingresar</a>
+                    </div>
+    </header>
+
+    <!-- FORMULARIO DE REGISTRO Y LOGIN  -->
+    <section>
+        <div class="registronne1">
+            <div id="registronone" class="container d-none"> 
+                  
+                <form id="formRegistro" class="text-center formulario mx-auto">
+                    <h2 class="form-r">Registro</h2>
+                        <label for="fregistro" class="form-label">Usuario</label>
+                        <input type="email" class="form-control" id="fregistro" aria-describedby="emailHelp">
+                        <label for="contraseña" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="contraseña">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
             </div>
-        <div id="registronone" class="container d-none"> 
-          
-            <form  class="text-center formularios mx-auto">
-                <h2 class="form-r">Registro</h2>
-                <div class="mb-3">
-                <label for="fregistro" class="form-label">Usuario</label>
-                <input type="email" class="form-control" id="fregistro" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                <label for="contraseña" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="contraseña">
-                </div>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-            </form>
-        </div>
+        </div>   
         
         <div id="loginnone" class="container d-none"> 
         
-            <form class="text-center formularios mx-auto">
+            <form id="formLogin" class="text-center formulario mx-auto">
                 <h2 class="form-r">Ingresar</h2>
-                <div class="mb-3">
-                <label for="login" class="form-label">Usuario</label>
-                <input type="email" class="form-control" id="login" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                <label for="contraseña2" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="contraseña2">
-                </div>
+                    <label for="login" class="form-label">Usuario</label>
+                    <input type="email" class="form-control" id="login" aria-describedby="emailHelp">
+                    <label for="contraseña2" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="contraseña2">
                 <button type="submit" class="btn btn-primary">Ingresar</button>
             </form>
         </div>
-        </nav>
-    </header>
+    </section>
 
+    
     <!-- INICIO -->
     <section class="content home">
          <div>
