@@ -20,8 +20,6 @@ registronone.classList.add("d-none")
 
 }
 
-
-
 // FUNCION REGISTROFORM TOMA VALUE Y GUARDA LA SESION
 
 let formregistro = document.getElementById('formRegistro');
@@ -30,11 +28,13 @@ formregistro.addEventListener('submit' , registroform);
 function registroform(e){
     e.preventDefault(e);
     let formulario = e.target;
-    console.log(formulario.children[2].value);
-    sessionStorage.setItem("email" , formulario.children[2].value)
-    console.log(formulario.children[4].value);
-    sessionStorage.setItem("clave" , formulario.children[4].value)
 
+    sessionStorage.setItem("email" , formulario.children[2].value)
+    sessionStorage.setItem("clave" , formulario.children[4].value)
+    // RECUPERACION DE EMAIL
+    let formularioStorage = JSON.stringify(sessionStorage.getItem("email"))
+    console.log(formularioStorage);
+    
 
 // SWEETALERT
 Swal.fire ({
@@ -47,6 +47,7 @@ Swal.fire ({
  registronone.classList.toggle("d-none")
 }
 
+
 // FORMULARIO LOGIN SUBMIT -- COMPARACION DE DATOS 
 
 let formlogin = document.getElementById('formLogin');
@@ -56,7 +57,9 @@ function loginform(e){
     e.preventDefault(e);
     let formulario = e.target;
     if(((sessionStorage.getItem("email") == formulario.children[2].value)) && ((sessionStorage.getItem ("clave") == formulario.children[4].value))){
-
+    // RECUPERACION DE CLAVE
+    let formularioStorage = JSON.stringify(sessionStorage.getItem("clave"))
+    console.log(formularioStorage);
 // SWEETALERT
     Swal.fire ({
     position: 'center',
