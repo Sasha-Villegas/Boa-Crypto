@@ -56,6 +56,7 @@ formlogin.addEventListener('submit' ,  loginform);
 function loginform(e){
     e.preventDefault(e);
     let formulario = e.target;
+    // OPERARIO AND
     if(((sessionStorage.getItem("email") == formulario.children[2].value)) && ((sessionStorage.getItem ("clave") == formulario.children[4].value))){
     // RECUPERACION DE CLAVE
     let formularioStorage = JSON.stringify(sessionStorage.getItem("clave"))
