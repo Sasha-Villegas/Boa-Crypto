@@ -29,6 +29,13 @@ function registroform(e){
     e.preventDefault(e);
     let formulario = e.target;
 
+    if ((!formulario.children[2].value) || (!formulario.children[4].value))  {
+        Swal.fire({
+        icon: 'error',
+        title: 'Es necesario completar los campos',
+    })}
+    else {
+
     sessionStorage.setItem("email" , formulario.children[2].value)
     sessionStorage.setItem("clave" , formulario.children[4].value)
     // RECUPERACION DE EMAIL
@@ -45,6 +52,7 @@ Swal.fire ({
     timer: 1500
 })
  registronone.classList.toggle("d-none")
+}
 }
 
 
