@@ -45,7 +45,7 @@ class cripto  {
                                       <li class="list-unstyled fs-5 mt-2">Inversion: ${imp} ${this.ticker}</li>
                                       <li id="recompensa${this.ticker}" class="list-unstyled fs-5 mt-2">Recompensa: ${recompensaTotal.toFixed(10)} ${this.ticker}</li>
                                       <button type="button" class="btn-view my-3" data-bs-toggle="modal" data-bs-target="#ModalStake${this.ticker}">
-                                      Ver Rendimiento diario
+                                      Ver rendimiento diario
                                       </button>
                                       </div>`;                   
             }
@@ -56,7 +56,7 @@ class cripto  {
 const listacriptos = new Listacriptos([]);
 const tipocripto = ["Bitcoin","Altcoin","Stablecoin","Token"];
 const [b,alt,sta,tok] = tipocripto;
-const dirlogo = '../images/';
+const dirlogo = './images/';
 const btc = new cripto("BTC","Bitcoin",0.035,dirlogo+"bitcoin.svg",b,"BTCUSDT");
 const eth = new cripto("ETH","Ethereum",0.04,dirlogo+"ethereum.svg",alt,"ETHUSDT");
 const usdt = new cripto("USDT","Tether",0.06,dirlogo+"usdtlogo.svg",sta,"BUSDUSDT");
@@ -127,7 +127,7 @@ ws.onmessage = function(evento) {
               `
     });
     contenedor.appendChild(divCripto);
-  
+    
   }
   
   function botonStake()

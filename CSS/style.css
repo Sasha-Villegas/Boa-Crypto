@@ -447,6 +447,19 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* FOOTER  */
+
+.ft {
+  background-color: #007d6d;
+  color: #B4FF9F;
+}
+
+.ftt{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
 /* MEDIA QUERYS */
 @media screen and (max-width: 768px) {
   .header {
