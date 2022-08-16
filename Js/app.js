@@ -35,24 +35,6 @@ console.log(botonStorage)
 }
 mostrarProductos(productos)
 
-// BORRAR ITEMS NO SELECCIONADOS
-
-// desaparecer(`plan${productos.id}`); 33
-
-// const desaparecer = (info) => {
-//     const item = plans.find((a)=> a === info)
-//     const temp = plans.indexOf(item)
-//     plans.splice((item-1) , 1)
-//     console.log(plans);
-//     let boton = document.getElementById(temp.id)
-//     boton.classList.toggle("d-none")
-    
-// }
-
-// let plans = []
-// plans.push(...productos)
-// console.log(plans)
-
 
 
 
