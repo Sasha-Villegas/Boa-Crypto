@@ -216,6 +216,9 @@ form-r {
   background-color: #E3FCBF;
 }
 
+.formulario-titulo h2{
+  font-size: 45px;
+}
 
 .text {
   border-radius: 0.50rem;
