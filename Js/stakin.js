@@ -47,7 +47,8 @@ class cripto  {
                                       <button type="button" class="btn-view my-3" data-bs-toggle="modal" data-bs-target="#ModalStake${this.ticker}">
                                       Ver rendimiento diario
                                       </button>
-                                      </div>`;                   
+                                      </div>`;
+                                                        
             }
     }
 }

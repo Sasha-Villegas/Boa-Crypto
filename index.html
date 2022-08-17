@@ -15,13 +15,13 @@
 
     <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
@@ -165,59 +165,32 @@
     <!-- CONTACTO -->
 
     <section id="Contacto" class="content contac">
-        <div> 
-            <h2 class="tittle"> Contacto</h2>
-            <h3 class="subtittle">Asesoramiento de inversiones personalizado</h3>
-            <p class="texto">Brindamos opciones de estrategias basadas en los objetivos del cliente, de acuerdo con su tolerancia al riesgo y con su personal filosofía de inversión.</p>
+    <article class="formulario-imagen">
+        <img src="./images/contac.svg" alt="contact">
+    </article>
 
+    <article class="formulario-contenedor">
+        <div class="formulario-titulo">
+            <h2>Contactanos</h2>
         </div>
-        <div class="contacto">
-            <div class="texto-c">
-                <div class="icono-c"> 
-                    <i class="fa-brands fa-bitcoin icon"></i>
-                        <h2 class="texto-introc"></i>  BOA CRYPTO</h2>
-                </div>
-            <div class="icono-c"> 
-                <i class="fas fa-envelope me-3 icon"></i>
-                    <h3 class="textoc"> boacrypto@gmail.com</h3>
-            </div>
-            <div class="icono-c"> 
-                <i class="fas fa-home me-3 icon"></i>
-                    <h4 class="textoc"> Juana Manso 1800 Piso 9 CABA - Puerto Madero</h4>
-            </div>
-            <div class="icono-c"> 
-                <i class="fas fa-phone me-3 icon"></i>
-            <h4 class="textoc"> 0800-3007-1504</h4>
-            </div>
-            </div>
-        <div class=formulario-c>
-            <form id="form" class="formulario" action="enviar solicitud">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre">
-                </div>
-                <div>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" name="apellido" >
-                </div>
-                <div>
-                    <label for="email">E-Mail</label>
-                    <input type="text" id="email" name="email" >
-                </div>
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="text" id="telefono" name="telefono">
-                </div>
-                <div>
-                    <label for="consulta">Consulta</label>
-                    <textarea  name="consulta" id="consulta" cols="21" rows="5"></textarea>
-                    <input type="submit" value="ENVIAR">
-                </div>
+
+        <div class="formularioc">
+            <form id="form" class="formulario">
+                <input type="text" placeholder="nombre">
+                <input type="email" placeholder="email">
+                <button type="submit">Enviar</button> 
             </form>
             <a href="mailto:slinvestments30gmail.com" id="mail"></a>
+            <textarea class="text" name="Consulta" id="" cols="30" rows="7" placeholder="consulta"></textarea>
         </div>
-        </div>
+    </article> 
     </section>
+    <div class="spans">
+      <i class="fas fa-phone me-3 icon"></i>
+        <h4 class="textoc"> 0800-3007-1504</h4>
+      <i class="fas fa-envelope me-3 icon"></i>
+        <h3 class="textoc"> boacrypto@gmail.com</h3>
+    </div>
     
 
     <!-- FOOTER -->
