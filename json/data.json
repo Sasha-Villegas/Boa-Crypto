@@ -1,0 +1,8 @@
+[
+    {"ticker": "BTC","nombre": "Bitcoin","apy":0.035,"img": "./images/bitcoin.svg","tipocripto": "Bitcoin", "streamTicker": "BTCUSDT"},
+    {"ticker": "ETH","nombre": "Ethereum","apy":0.04,"img": "./images/ethereum.svg","tipocripto": "Altcoin", "streamTicker": "ETHUSDT"},
+    {"ticker": "USDT","nombre": "Tether","apy":0.06,"img": "./images/usdtlogo.svg","tipocripto": "Stablecoin", "streamTicker": " USDT"},
+    {"ticker": "DAI","nombre":"DAI","apy":0.13,"img": "./images/dailogo.svg","tipocripto": "Stablecoin", "streamTicker":" USDTDAI"},
+    {"ticker": "AXS","nombre":"Axie Infinity","apy":0.5,"img": "./images/axslogo.svg","tipocripto": "Token", "streamTicker": "AXSUSDT"},
+    {"ticker": "SAND","nombre":"The Sandbox","apy":0.045,"img": "./images/sandlogo.svg","tipocripto": "Token", "streamTicker":"SANDUSDT"}
+]

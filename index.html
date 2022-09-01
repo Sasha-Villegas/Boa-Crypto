@@ -61,8 +61,15 @@
                 <li class="items">
                     <a  href="#Contacto">Contacto</a>
                 </li>
+                
                 <a href="#close" class="closeenlace"><li class="navulitems-close"><span class="jam jam-close-circle"></span></li></a>
             </ul>
+            <div class="col-auto">
+              <a type="button" class="btn-carrito" data-bs-toggle="modal" data-bs-target="#modalCarrito"> <img class="header-carrito"
+                      src="./images/carrito-compras.png" alt="Carrito de Compra"><span id="contadorCarrito"
+                      class="badge border border-white ">0</span>
+              </a>
+            </div>
         </nav>
                     <!-- BOTONNES DE REGISTRO -->
                     <div class="botoness">
@@ -147,6 +154,35 @@
         <div id ="producto-contenedor" class="container">
             <div id="row" class="row"></div>
         </div>
+    </section>
+
+        <!-- CARRITO -->
+    <section>
+      <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="./images/carrito-compras.png" alt="logo" class="carrito-logo text-center">
+                            <h5 class="modal-title" id="exampleModalLabel">Carrito de compra</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body containter" id="contenedorCarrito">
+                        </div>
+                        <div class="modal-footer row justify-content-between">
+                            <h5 class="modal-subtitle col " id="carrito-footer">Total: $<span id="precioTotal">0</span>
+                            </h5>
+                            <button id="boton-pagar" class="boton-pagar btn  btn-sm col-2"
+                                type="button">Pagar</button>
+                            <h6 class="col text-end">Vaciar carrito :<a type="button" class="mx-auto"
+                                    id="vaciar-carrito"> <img class="basura" src="./images/basura.png" alt="basurero"></a>
+                            </h6>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <!-- UBICACION -->
@@ -325,6 +361,7 @@
     <script src="./Js/app.js" type="module"></script>
     <script src="./Js/packs.js" type="module"></script>
     <script src="./Js/stakin.js" type="module"></script>
+    <script src="./Js/carrito.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
