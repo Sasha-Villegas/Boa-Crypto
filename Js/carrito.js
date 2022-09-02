@@ -1,3 +1,5 @@
+import {mostrarProductos} from "./app.js";
+
 let carrito = [];
 let productos = [];
 
@@ -12,7 +14,7 @@ class Packs {
 }
 
 
-
+// IMPORT DE PACKS DEL JSON 
 const cargarpacks = async () => {
     const response = await fetch("./json/packs.json");
     const items = await response.json();
@@ -22,7 +24,13 @@ const cargarpacks = async () => {
     console.log(productos);
 }
 
-cargarpacks();
+const agruparAsync = async () => {
+    await cargarpacks();
+    mostrarProductos(productos);
+}
+
+agruparAsync()
+
 
 const agregarAlCarrito = (prodId) => {
     console.log(prodId);

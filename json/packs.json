@@ -1,6 +1,6 @@
 [
-    {"id": 1, "nombre": "plan basico","precio": 15000,  "img": "./images/planbasico.png", "cantidad":1 },
-    {"id": 2, "nombre": "plan estandar","precio": 25000,  "img":"./images/planestandar.png", "cantidad": 1},
-    {"id": 3, "nombre": "plan premiun","precio": 35000, "img":"./images/planpremiun.png", "cantidad": 1},
-    {"id": 4, "nombre": "plan completo","precio": 40000,  "img":"./images/plancompleto.png", "cantidad": 1}
+    {"id": 1, "nombre": "planbasico","precio": 15000,  "img": "./images/planbasico.png", "cantidad":1 },
+    {"id": 2, "nombre": "planestandar","precio": 25000,  "img":"./images/planestandar.png", "cantidad": 1},
+    {"id": 3, "nombre": "planpremiun","precio": 35000, "img":"./images/planpremiun.png", "cantidad": 1},
+    {"id": 4, "nombre": "plancompleto","precio": 40000,  "img":"./images/plancompleto.png", "cantidad": 1}
 ]

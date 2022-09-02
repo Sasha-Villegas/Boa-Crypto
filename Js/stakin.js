@@ -201,7 +201,7 @@ function databtnStake()
             setTimeout(function(){
             document.getElementById(`plazo${cripto.ticker}`).focus();          
             }, 300);
-            console.log(btncollapse);
+            
         })      
     })
 } 
