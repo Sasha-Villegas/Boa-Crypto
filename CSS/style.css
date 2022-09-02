@@ -13,7 +13,7 @@ body {
   padding: 0;
   background-color: #e3fcbf;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
 }
 
